@@ -72,6 +72,12 @@ kbd, code, pre {
   font-family: "Source Code Pro", monospace;
 }
 
+pre {
+  max-width: 100%;
+  overflow: auto;
+  padding: .5rem 0;
+}
+
 kbd {
   padding: .125rem .25rem 0;
   margin: 0;
