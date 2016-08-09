@@ -4,7 +4,11 @@ _Paperback_ is a minimalist theme for [Hugo](http://gohugo.io).
 
 It focuses on improving reading experience with high contrast colors and no fancy effect.
 
-## Parameters
+## Installation
+
+Please refer to the [Hugo documentation](http://gohugo.io/themes/installing/).
+
+## Configuration
 
 A few parameters can be adjusted in the site config:
 
