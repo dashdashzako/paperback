@@ -4,7 +4,7 @@ _Paperback_ is a minimalist theme for [Hugo](http://gohugo.io).
 
 It focuses on improving reading experience with high contrast colors and no fancy effect.
 
-It also uses pygments for the syntaxic coloration of code snippets.
+It also uses [Highlight.js](https://highlightjs.org/) for the syntaxic coloration of code snippets.
 
 ## Installation
 
@@ -39,3 +39,8 @@ GithubUsername = "damiencaselli"
 # default: undefined
 TwitterUsername = "damiencaselli"
 ```
+
+### Code highlighting
+
+Both highlight theme and lib can be overridden. Just drop your build in the `static/js` directory, and the theme file in the `static/css` directory.  
+Note that the theme has to be named `highlight.css`.

@@ -79,7 +79,6 @@ kbd, code, pre {
 
 pre {
   max-width: 100%;
-  padding: .5rem;
   margin: 0 0 1rem;
 }
 
@@ -157,8 +156,4 @@ footer, .site-nav {
 
 .site-footer {
   margin-bottom: 1rem;
-}
-
-.highlight {
-  overflow: auto;
 }
