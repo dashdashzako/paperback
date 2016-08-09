@@ -83,10 +83,10 @@ pre {
   margin: 0 0 1rem;
 }
 
-kbd {
+kbd, code {
   padding: .125rem .25rem 0;
   margin: 0;
-  background-color: #ececec;
+  background-color: #e5e5e5;
 }
 
 article, section {
