@@ -3,7 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/damiencaselli/paperback/blob/master/LICENSE.md"
 description = "Minimalist theme for Hugo."
 homepage = "https://github.com/damiencaselli/paperback"
-tags = ["minimalist", "reading", "sepia"]
+tags = ["minimalist", "reading", "sepia", "blog"]
 features = ["blog"]
 min_version = 0.15
 
