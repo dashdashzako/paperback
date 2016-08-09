@@ -2,7 +2,7 @@
 
 _Paperback_ is a minimalist theme for [Hugo](http://gohugo.io).
 
-It focuses on reading experience, and was mostly designed to suit my needs.
+It focuses on improving reading experience with high contrast colors and no fancy effect.
 
 ## Parameters
 
@@ -11,6 +11,7 @@ A few parameters can be adjusted in the site config:
 ```toml
 [params]
 
+# your name to display by the copyright sign
 # default: undefined
 AuthorName = "Firstname Lastname"
 
@@ -18,7 +19,8 @@ AuthorName = "Firstname Lastname"
 # default: undefined
 Tagline = "Hello, world!"
 
-# number of posts to show on index; default: 10
+# number of posts to show on index
+# default: 10
 HomepagePosts = 3
 
 # if set to true, social links will be displayed in the footer
