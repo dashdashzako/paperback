@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+    <div class="container">
+
+      {{ partial "header.html" . }}
+
+      <article>
+
+        {{ range (where .Data.Pages "Type" "post").GroupByDate "2006/01" -}}
+        <section>
+          <h2>{{ .Key }}</h2>
+
+          <ol>
+            {{ range .Pages -}}
+            <li>
+              {{ .Render "list-item" }}
+            </li>
+            {{ end }}
+          </ol>
+        </section>
+        {{ end }}
+
+      </article>
+
+      {{ partial "nav.html" . }}
+
+      {{ partial "footer.html" . }}
+
+    </div>
+  </body>
+</html>

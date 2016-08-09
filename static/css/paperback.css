@@ -1,0 +1,149 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arvo, Philosopher, serif;
+  color: #303030;
+  background-color: #f5f5f0;
+  font-size: 1rem;
+}
+
+body {
+  line-height: 1.6;
+}
+
+hr {
+  margin: 2rem 0;
+  height: 0;
+  display: block;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #888888;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  margin: 0 0 1rem;
+  padding: 1rem 1rem 0;
+  color: #888888;
+  border-left: 1px solid currentColor;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 1rem;
+  font-style: italic;
+  font-size: .875rem;
+}
+
+blockquote cite:before {
+  content: "— "
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+  a:hover {
+    text-decoration: none;
+    border-bottom: 0;
+  }
+
+ol, ul {
+  margin: 0 0 1rem 1.25rem;
+  padding: 0;
+  list-style-position: outside;
+}
+
+ol ol, ul ul, ul ol, ol ul {
+  margin-bottom: 0;
+}
+
+li {
+  margin: 0;
+}
+
+kbd, code, pre {
+  font-family: "Source Code Pro", monospace;
+}
+
+kbd {
+  padding: .125rem .25rem 0;
+  margin: 0;
+  background-color: #ececec;
+}
+
+article, section {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 1.875rem;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 0 0 .5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+time {
+  display: block;
+  margin: 0 0 1rem;
+}
+
+footer, .site-nav {
+  margin: 0 0 .5rem;
+  font-size: 14px;
+  color: #888888;
+}
+
+  footer a, .site-nav a {
+    color: currentColor;
+  }
+
+  footer > *+*, .site-nav > *+* {
+    margin-left: .5rem;
+  }
+
+.container {
+  max-width: 34rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.site-nav {
+  margin-top: 2rem;
+}
+
+.site-footer {
+  margin-bottom: 1rem;
+}
