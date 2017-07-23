@@ -2,11 +2,11 @@
   <a href="{{ .Site.BaseURL }}">Home</a>
   <a href="{{ .Site.BaseURL }}post/">All posts</a>
 
-  {{ if isset .Site.Params "TwitterUsername" -}}
+  {{ if isset .Site.Params "twitterusername" }}
   <a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}">Twitter</a>
   {{- end }}
 
-  {{ if isset .Site.Params "GithubUsername" -}}
+  {{ if isset .Site.Params "githubusername" }}
   <a href="http://github.com/{{ .Site.Params.GithubUsername }}">GitHub</a>
   {{- end }}
 
