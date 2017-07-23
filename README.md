@@ -29,10 +29,6 @@ Tagline = "Hello, world!"
 # default: 10
 HomepagePosts = 3
 
-# if set to true, social links will be displayed in the footer
-# default: undefined
-SocialLinks = true
-
 # default: undefined
 GithubUsername = "damiencaselli"
 

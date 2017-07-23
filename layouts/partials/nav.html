@@ -2,16 +2,12 @@
   <a href="{{ .Site.BaseURL }}">Home</a>
   <a href="{{ .Site.BaseURL }}post/">All posts</a>
 
-  {{ if eq .Site.Params.SocialLinks true -}}
+  {{ if isset .Site.Params "TwitterUsername" -}}
+  <a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}">Twitter</a>
+  {{- end }}
 
-    {{ if isset .Site.Params "TwitterUsername" -}}
-    <a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}">Twitter</a>
-    {{- end }}
-
-    {{ if isset .Site.Params "GithubUsername" -}}
-    <a href="http://github.com/{{ .Site.Params.GithubUsername }}">GitHub</a>
-    {{- end }}
-
+  {{ if isset .Site.Params "GithubUsername" -}}
+  <a href="http://github.com/{{ .Site.Params.GithubUsername }}">GitHub</a>
   {{- end }}
 
 </nav>
