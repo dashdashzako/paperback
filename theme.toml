@@ -8,5 +8,5 @@ features = ["blog"]
 min_version = 0.15
 
 [author]
-name = "Damien Caselli"
-homepage = "https://damiencaselli.github.io/paperback-demo/"
+  name = "Damien Caselli"
+  homepage = "https://github.com/damiencaselli"
