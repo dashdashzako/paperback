@@ -10,7 +10,7 @@
 
       <section>
 
-        {{ range first (index .Site.Params "HomepagePosts" | default 3) (where .Data.Pages "Type" "post") }}
+        {{ range first (index .Site.Params "homepageposts" | default 3) (where .Data.Pages "Type" "post") }}
         <article>
           {{ .Render "list-item-expanded" }}
         </article>

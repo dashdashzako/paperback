@@ -3,11 +3,11 @@
   <a href="{{ .Site.BaseURL }}post/">All posts</a>
 
   {{ if isset .Site.Params "twitterusername" }}
-  <a href="https://twitter.com/{{ .Site.Params.TwitterUsername }}">Twitter</a>
+  <a href="https://twitter.com/{{ .Site.Params.twitterusername }}">Twitter</a>
   {{- end }}
 
   {{ if isset .Site.Params "githubusername" }}
-  <a href="http://github.com/{{ .Site.Params.GithubUsername }}">GitHub</a>
+  <a href="http://github.com/{{ .Site.Params.githubusername }}">GitHub</a>
   {{- end }}
 
 </nav>
