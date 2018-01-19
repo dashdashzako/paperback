@@ -5,7 +5,7 @@
   <time datetime="{{ .Date }}">{{ dateFormat "2006/01/02" .Date }}</time>
   {{ end }}
 
-  {{ if and .IsHome (isset .Site.Params "Tagline") }}
+  {{ if and .IsHome (isset .Site.Params "tagline") }}
   <p>{{ .Site.Params.Tagline }}</p>
   {{ end }}
 </header>
