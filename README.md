@@ -17,6 +17,8 @@ Please refer to the [Hugo documentation](http://gohugo.io/themes/installing/).
 A few parameters can be adjusted in the site config:
 
 ```toml
+# googleAnalytics = "UA-123-45"
+
 [params]
 
 # your name to display by the copyright sign
