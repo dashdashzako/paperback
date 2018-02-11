@@ -38,6 +38,9 @@ GithubUsername = "damiencaselli"
 
 # default: undefined
 TwitterUsername = "damiencaselli"
+
+# default: undefined
+LinkedInUsername = "damiencaselli"
 ```
 
 ### Code highlighting
