@@ -10,6 +10,3 @@ min_version = 0.15
 [author]
   name = "dashdashzako"
   homepage = "https://github.com/dashdashzako"
-
-[params]
-  mainSections = ["post"]
