@@ -5,7 +5,7 @@ description = "Minimalist theme for Hugo."
 homepage = "https://github.com/dashdashzako/paperback"
 tags = ["minimalist", "reading", "sepia", "blog"]
 features = ["blog"]
-min_version = 0.15
+min_version = 0.57
 
 [author]
   name = "dashdashzako"
