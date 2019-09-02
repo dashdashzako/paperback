@@ -1,12 +1,12 @@
 name = "Paperback"
 license = "MIT"
-licenselink = "https://github.com/damiencaselli/paperback/blob/master/LICENSE.md"
+licenselink = "https://github.com/dashdashzako/paperback/blob/master/LICENSE.md"
 description = "Minimalist theme for Hugo."
-homepage = "https://github.com/damiencaselli/paperback"
+homepage = "https://github.com/dashdashzako/paperback"
 tags = ["minimalist", "reading", "sepia", "blog"]
 features = ["blog"]
 min_version = 0.15
 
 [author]
-  name = "Damien Caselli"
-  homepage = "https://github.com/damiencaselli"
+  name = "dashdashzako"
+  homepage = "https://github.com/dashdashzako"

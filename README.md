@@ -6,7 +6,7 @@ It focuses on improving reading experience with high contrast colors and no fanc
 
 It also uses [Highlight.js](https://highlightjs.org/) for the syntaxic coloration of code snippets.
 
-Demo is available [here](https://damiencaselli.github.io/paperback-demo/).
+Demo is available [here](https://dashdashzako.github.io/paperback-demo/).
 
 ## Installation
 
@@ -34,13 +34,13 @@ Tagline = "Hello, world!"
 HomepagePosts = 3
 
 # default: undefined
-GithubUsername = "damiencaselli"
+GithubUsername = "dashdashzako"
 
 # default: undefined
-TwitterUsername = "damiencaselli"
+TwitterUsername = "dashdashzako"
 
 # default: undefined
-LinkedInUsername = "damiencaselli"
+LinkedInUsername = "dashdashzako"
 ```
 
 ### Code highlighting
