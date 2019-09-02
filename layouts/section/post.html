@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" . }}
+{{ partial "head.html" . }}
 
-  <body>
-    <div class="container">
+<body>
+  <div class="container">
 
-      {{ partial "header.html" . }}
+    {{ partial "header.html" . }}
 
-      <article>
+    <article>
 
-        {{ range (where .Data.Pages "Type" "post").GroupByDate "2006/01" -}}
-        <section>
-          <h2>{{ .Key }}</h2>
+      {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).GroupByDate "2006/01" -}}
+      <section>
+        <h2>{{ .Key }}</h2>
 
-          <ol>
-            {{ range .Pages -}}
-            <li>
-              {{ .Render "list-item" }}
-            </li>
-            {{ end }}
-          </ol>
-        </section>
-        {{ end }}
+        <ol>
+          {{ range .Pages -}}
+          <li>
+            {{ .Render "list-item" }}
+          </li>
+          {{ end }}
+        </ol>
+      </section>
+      {{ end }}
 
-      </article>
+    </article>
 
-      {{ partial "nav.html" . }}
+    {{ partial "nav.html" . }}
 
-      {{ partial "footer.html" . }}
+    {{ partial "footer.html" . }}
 
-    </div>
+  </div>
 
   {{ partial "highlight" . }}
 
-  </body>
+</body>
+
 </html>
