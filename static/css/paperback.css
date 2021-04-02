@@ -54,6 +54,13 @@ a {
     border-bottom: 0;
   }
 
+@supports (text-decoration-skip-ink: auto) {
+  a {
+    text-decoration: underline;
+    border-bottom: 0;
+  }
+}
+
 ol, ul {
   margin: 0 0 1rem 1.25rem;
   padding: 0;
